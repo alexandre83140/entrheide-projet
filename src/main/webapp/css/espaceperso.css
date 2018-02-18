@@ -1,0 +1,36 @@
+/*espace perso*/
+.monProfil{
+    justify-content: center;
+    text-align: center;
+}
+hr{
+    width:40%;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.link{
+    margin: 20px;
+}
+
+/*infos*/
+.infos{
+    justify-content: center;
+    text-align: center;
+}
+label{
+    margin:10px;
+}
+div{
+    display: block;
+    margin: 5px;
+}
+/*historique*/
+.historique{
+    text-align: center;
+    justify-content: center;
+}
+.image{
+    display: inline-block;
+}

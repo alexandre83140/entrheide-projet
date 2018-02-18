@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="entrheide:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="entrheide-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="entrheide:war exploded" />
+    </root>
+  </artifact>
+</component>

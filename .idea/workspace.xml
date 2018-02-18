@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="100HxProjet:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36252ac3-8fa7-49f3-b5de-b6578d411e38" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="InscriptionServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlets/InscriptionServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnexionServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ConnexionServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccueilServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlets/AccueilServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1000">
+              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UtilisateurDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/daos/UtilisateurDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1232">
+              <caret line="136" column="5" lean-forward="false" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+              <folding>
+                <marker date="1518886913261" expanded="true" signature="634:659" ph="SELECT * FRO... utilisateur" />
+                <marker date="1518886913261" expanded="true" signature="1911:1960" ph="SELECT * FRO... utilisateur" />
+                <marker date="1518886913261" expanded="true" signature="1911:1968" ph="SELECT * FRO... utilisateur" />
+                <marker date="1518886913261" expanded="true" signature="1911:1981" ph="SELECT * FRO... utilisateur" />
+                <marker date="1518886913261" expanded="true" signature="3164:3340" ph="INSERT INTO bonplan... " />
+                <marker date="1518886913261" expanded="true" signature="4550:4615" ph="UPDATE utili... " />
+                <marker date="1518886913261" expanded="true" signature="5079:5146" ph="UPDATE utili... " />
+                <marker date="1518886913261" expanded="true" signature="5618:5689" ph="UPDATE utili... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UtilisateurDaoTestCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UtilisateurDaoTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+              <folding>
+                <marker date="1518892839587" expanded="true" signature="722:739" ph="DELETE FROM " />
+                <marker date="1518892839587" expanded="true" signature="722:910" ph="DELETE FROM " />
+                <marker date="1518892839587" expanded="true" signature="775:794" ph="DELETE FROM " />
+                <marker date="1518892839587" expanded="true" signature="830:851" ph="DELETE FROM " />
+                <marker date="1518892839587" expanded="true" signature="887:910" ph="DELETE FROM " />
+                <marker date="1518892839587" expanded="true" signature="946:1203" ph="INSERT INTO utilisateur... " />
+                <marker date="1518892839587" expanded="true" signature="1239:1496" ph="INSERT INTO utilisateur... " />
+                <marker date="1518892839587" expanded="true" signature="4328:4387" ph="SELECT * FRO... bonplan" />
+                <marker date="1518892839587" expanded="true" signature="5550:5599" ph="SELECT * FRO... utilisateur" />
+                <marker date="1518892839587" expanded="true" signature="6251:6300" ph="SELECT * FRO... utilisateur" />
+                <marker date="1518892839587" expanded="true" signature="6958:7007" ph="SELECT * FRO... utilisateur" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnonceDaoTestCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AnnonceDaoTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="28" selection-end-column="58" />
+              <folding>
+                <marker date="1518885741148" expanded="true" signature="744:761" ph="DELETE FROM " />
+                <marker date="1518885741148" expanded="true" signature="797:809" ph="DELETE FROM " />
+                <marker date="1518885741148" expanded="true" signature="797:816" ph="DELETE FROM " />
+                <marker date="1518885741148" expanded="true" signature="852:864" ph="DELETE FROM " />
+                <marker date="1518885741148" expanded="true" signature="852:873" ph="DELETE FROM " />
+                <marker date="1518885741148" expanded="true" signature="909:932" ph="DELETE FROM " />
+                <marker date="1518885741148" expanded="true" signature="968:1037" ph="INSERT INTO `categorie`... " />
+                <marker date="1518885741148" expanded="true" signature="968:1142" ph="INSERT INTO `userBP`... " />
+                <marker date="1518885741148" expanded="true" signature="1073:1142" ph="INSERT INTO `categorie`... " />
+                <marker date="1518885741148" expanded="true" signature="1178:1190" ph="INSERT INTO bonplan... " />
+                <marker date="1518885741148" expanded="true" signature="1178:1433" ph="INSERT INTO `utilisateur`... " />
+                <marker date="1518885741148" expanded="true" signature="1469:1724" ph="INSERT INTO `utilisateur`... " />
+                <marker date="1518885741148" expanded="true" signature="1723:1724" ph="INSERT INTO bonplan... " />
+                <marker date="1518885741148" expanded="true" signature="1760:1969" ph="INSERT INTO annonce... " />
+                <marker date="1518885741148" expanded="true" signature="2005:2214" ph="INSERT INTO annonce... " />
+                <marker date="1518885741148" expanded="true" signature="7105:7159" ph="SELECT * FRO... bonplan" />
+                <marker date="1518885741148" expanded="true" signature="11123:11164" ph="SELECT * FRO... annonce" />
+                <marker date="1518885741148" expanded="true" signature="12035:12076" ph="SELECT * FRO... annonce" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/entrheide" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pojos/Annonce" />
+        <option value="$PROJECT_DIR$/src/main/java/pojos/Categorie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojos/Evenement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojos/Grade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojos/Publier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/PublierDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/CategorieDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CategorieDaoTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/GradeDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GradeDaoTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojos/Commentaire.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CommentaireDaoTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/EvenementDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EvenementDaoTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojos/Annonce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojos/Photo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/CommentaireDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/library/AnnonceLibrary.java" />
+        <option value="$PROJECT_DIR$/src/main/sql/creationTables.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/pojos/Utilisateur.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/PhotoDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PhotoDaoTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/CategorieService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/AnnonceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/PhotoService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragment/formInscription.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/global/LesAnnonces.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/global/Entree.html" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/DeposerAnnonceServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/global/inscription.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/entree.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/mainEnthreide.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/inscription.html" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/ListAnnonceByCategoryServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/EntreeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/connexion.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/accueil.html" />
+        <option value="$PROJECT_DIR$/src/main/java/services/UtilisateurService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/AnnonceDaoTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/AnnonceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/UtilisateurDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/ConnexionServlet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UtilisateurDaoTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/AccueilServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/InscriptionServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1586" />
+    <option name="width" value="1628" />
+    <option name="height" value="1714" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="entrheide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100HxProjet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrheide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100HxProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrheide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100HxProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrheide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100HxProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrheide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100HxProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="daos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrheide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100HxProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrheide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100HxProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrheide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100HxProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrheide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100HxProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrheide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100HxProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrheide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100HxProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexandre PREVERT\Documents\Cours\Domaine\100HxProjet\src\main\webapp" />
+      <recent name="C:\Users\Alexandre PREVERT\Documents\Cours\Domaine\100HxProjet\src\main\webapp\WEB-INF\css" />
+      <recent name="C:\Users\Alexandre PREVERT\Documents\Cours\Domaine\100HxProjet\src\main\webapp\WEB-INF\templates" />
+      <recent name="C:\Users\Alexandre PREVERT\Documents\Cours\Domaine\100HxProjet\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Alexandre PREVERT\Documents\Cours\Domaine\100HxProjet\src\main\webapp\WEB-INF\templates\CSS" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.TomcatEntrheide">
+    <configuration name="AnnonceDaoTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="100HxProjet" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnnonceDaoTestCase" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TomcatEntrheide" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.46" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="100HxProjet:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_entrheide" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52844" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="100HxProjet:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="UtilisateurDaoTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="100HxProjet" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UtilisateurDaoTestCase" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UtilisateurDaoTestCase.shouldAddTelephoneUtilisateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="100HxProjet" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UtilisateurDaoTestCase" />
+      <option name="METHOD_NAME" value="shouldAddTelephoneUtilisateur" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UtilisateurDaoTestCase.shouldGetUtilisateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="100HxProjet" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UtilisateurDaoTestCase" />
+      <option name="METHOD_NAME" value="shouldGetUtilisateur" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UtilisateurDaoTestCase.shouldModifPromoUtilisateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="100HxProjet" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UtilisateurDaoTestCase" />
+      <option name="METHOD_NAME" value="shouldModifPromoUtilisateur" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.TomcatEntrheide" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UtilisateurDaoTestCase.shouldModifPromoUtilisateur" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UtilisateurDaoTestCase.shouldAddTelephoneUtilisateur" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UtilisateurDaoTestCase.shouldGetUtilisateur" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UtilisateurDaoTestCase" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.AnnonceDaoTestCase" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UtilisateurDaoTestCase" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AnnonceDaoTestCase" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UtilisateurDaoTestCase.shouldGetUtilisateur" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UtilisateurDaoTestCase.shouldAddTelephoneUtilisateur" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UtilisateurDaoTestCase.shouldModifPromoUtilisateur" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36252ac3-8fa7-49f3-b5de-b6578d411e38" name="Default" comment="" />
+      <created>1517059963849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517059963849</updated>
+      <workItem from="1517059968285" duration="23039000" />
+      <workItem from="1517231774549" duration="10977000" />
+      <workItem from="1517404681487" duration="20478000" />
+      <workItem from="1518099826923" duration="15166000" />
+      <workItem from="1518254068519" duration="7241000" />
+      <workItem from="1518424217813" duration="6857000" />
+      <workItem from="1518457744697" duration="39533000" />
+      <workItem from="1518962101769" duration="248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AnnonceDaoTestCase - 2018.02.17 at 19h 40m 08s.xml">
+      <configuration name="AnnonceDaoTestCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnonceDaoTestCase_shouldModifAnnonce - 2018.02.17 at 17h 43m 27s.xml">
+      <configuration name="AnnonceDaoTestCase.shouldModifAnnonce" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnonceDaoTestCase_shouldModifAnnonce - 2018.02.17 at 17h 44m 57s.xml">
+      <configuration name="AnnonceDaoTestCase.shouldModifAnnonce" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilisateurDaoTestCase - 2018.02.17 at 19h 38m 50s.xml">
+      <configuration name="UtilisateurDaoTestCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilisateurDaoTestCase - 2018.02.17 at 19h 40m 42s.xml">
+      <configuration name="UtilisateurDaoTestCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilisateurDaoTestCase_shouldAddTelephoneUtilisateur - 2018.02.17 at 18h 01m 56s.xml">
+      <configuration name="UtilisateurDaoTestCase.shouldAddTelephoneUtilisateur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilisateurDaoTestCase_shouldGetUtilisateur - 2018.02.17 at 19h 38m 25s.xml">
+      <configuration name="UtilisateurDaoTestCase.shouldGetUtilisateur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilisateurDaoTestCase_shouldModifMdpUtilisateur - 2018.02.17 at 17h 52m 20s.xml">
+      <configuration name="UtilisateurDaoTestCase.shouldModifMdpUtilisateur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilisateurDaoTestCase_shouldModifPromoUtilisateur - 2018.02.17 at 17h 57m 28s.xml">
+      <configuration name="UtilisateurDaoTestCase.shouldModifPromoUtilisateur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilisateurDaoTestCase_shouldModifPromoUtilisateur - 2018.02.17 at 17h 58m 41s.xml">
+      <configuration name="UtilisateurDaoTestCase.shouldModifPromoUtilisateur" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="123539000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-16" y="-16" width="3232" height="1732" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35416666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847223" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pojos/Annonce" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Publier.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/PublierDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Grade.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/GradeDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/EvenementDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Evenement.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/GradeDaoTestCase.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/EvenementDaoTestCase.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Commentaire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/library/AnnonceLibrary.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/CommentaireDaoTestCase.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.44/mysql-connector-java-5.1.44.jar!/com/mysql/jdbc/StatementImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="1668" column="0" lean-forward="false" selection-start-line="1668" selection-start-column="0" selection-end-line="1668" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Categorie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Photo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/creationTables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CategorieDaoTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="24" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PhotoDaoTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3640">
+          <caret line="107" column="113" lean-forward="false" selection-start-line="107" selection-start-column="113" selection-end-line="107" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/CategorieDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1383">
+          <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/CategorieService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="20" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/PhotoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="26" column="72" lean-forward="false" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Annonce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/global/accueil.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragment/formInscription.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/global/annonces.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/AnnonceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/global/lesAnnonces.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/DeposerAnnonceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/PhotoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2960">
+          <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/global/deposerAnnonce.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/global/entree.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/espaceperso.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/annonce.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ListAnnonceByCategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Utilisateur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="87" column="5" lean-forward="false" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding>
+            <element signature="method#setTelephoneUtilisateur#0;class#Utilisateur#0" expanded="false" />
+            <element signature="e#2489#2490#0" expanded="false" />
+            <element signature="e#2541#2542#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/accueil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/UtilisateurService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="24" column="155" lean-forward="false" selection-start-line="24" selection-start-column="155" selection-end-line="24" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/mainEnthreide.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="215" column="1" lean-forward="true" selection-start-line="215" selection-start-column="1" selection-end-line="215" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/CommentaireDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/connexion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/AnnonceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="183" column="30" lean-forward="false" selection-start-line="183" selection-start-column="30" selection-end-line="183" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/inscription.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/InscriptionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ConnexionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/AccueilServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AnnonceDaoTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="28" selection-end-column="58" />
+          <folding>
+            <marker date="1518885741148" expanded="true" signature="744:761" ph="DELETE FROM " />
+            <marker date="1518885741148" expanded="true" signature="797:809" ph="DELETE FROM " />
+            <marker date="1518885741148" expanded="true" signature="797:816" ph="DELETE FROM " />
+            <marker date="1518885741148" expanded="true" signature="852:864" ph="DELETE FROM " />
+            <marker date="1518885741148" expanded="true" signature="852:873" ph="DELETE FROM " />
+            <marker date="1518885741148" expanded="true" signature="909:932" ph="DELETE FROM " />
+            <marker date="1518885741148" expanded="true" signature="968:1037" ph="INSERT INTO `categorie`... " />
+            <marker date="1518885741148" expanded="true" signature="968:1142" ph="INSERT INTO `userBP`... " />
+            <marker date="1518885741148" expanded="true" signature="1073:1142" ph="INSERT INTO `categorie`... " />
+            <marker date="1518885741148" expanded="true" signature="1178:1190" ph="INSERT INTO bonplan... " />
+            <marker date="1518885741148" expanded="true" signature="1178:1433" ph="INSERT INTO `utilisateur`... " />
+            <marker date="1518885741148" expanded="true" signature="1469:1724" ph="INSERT INTO `utilisateur`... " />
+            <marker date="1518885741148" expanded="true" signature="1723:1724" ph="INSERT INTO bonplan... " />
+            <marker date="1518885741148" expanded="true" signature="1760:1969" ph="INSERT INTO annonce... " />
+            <marker date="1518885741148" expanded="true" signature="2005:2214" ph="INSERT INTO annonce... " />
+            <marker date="1518885741148" expanded="true" signature="7105:7159" ph="SELECT * FRO... bonplan" />
+            <marker date="1518885741148" expanded="true" signature="11123:11164" ph="SELECT * FRO... annonce" />
+            <marker date="1518885741148" expanded="true" signature="12035:12076" ph="SELECT * FRO... annonce" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UtilisateurDaoTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding>
+            <marker date="1518892839587" expanded="true" signature="722:739" ph="DELETE FROM " />
+            <marker date="1518892839587" expanded="true" signature="722:910" ph="DELETE FROM " />
+            <marker date="1518892839587" expanded="true" signature="775:794" ph="DELETE FROM " />
+            <marker date="1518892839587" expanded="true" signature="830:851" ph="DELETE FROM " />
+            <marker date="1518892839587" expanded="true" signature="887:910" ph="DELETE FROM " />
+            <marker date="1518892839587" expanded="true" signature="946:1203" ph="INSERT INTO utilisateur... " />
+            <marker date="1518892839587" expanded="true" signature="1239:1496" ph="INSERT INTO utilisateur... " />
+            <marker date="1518892839587" expanded="true" signature="4328:4387" ph="SELECT * FRO... bonplan" />
+            <marker date="1518892839587" expanded="true" signature="5550:5599" ph="SELECT * FRO... utilisateur" />
+            <marker date="1518892839587" expanded="true" signature="6251:6300" ph="SELECT * FRO... utilisateur" />
+            <marker date="1518892839587" expanded="true" signature="6958:7007" ph="SELECT * FRO... utilisateur" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/UtilisateurDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="136" column="5" lean-forward="false" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+          <folding>
+            <marker date="1518886913261" expanded="true" signature="634:659" ph="SELECT * FRO... utilisateur" />
+            <marker date="1518886913261" expanded="true" signature="1911:1960" ph="SELECT * FRO... utilisateur" />
+            <marker date="1518886913261" expanded="true" signature="1911:1968" ph="SELECT * FRO... utilisateur" />
+            <marker date="1518886913261" expanded="true" signature="1911:1981" ph="SELECT * FRO... utilisateur" />
+            <marker date="1518886913261" expanded="true" signature="3164:3340" ph="INSERT INTO bonplan... " />
+            <marker date="1518886913261" expanded="true" signature="4550:4615" ph="UPDATE utili... " />
+            <marker date="1518886913261" expanded="true" signature="5079:5146" ph="UPDATE utili... " />
+            <marker date="1518886913261" expanded="true" signature="5618:5689" ph="UPDATE utili... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>100HxProjet:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>100HxProjet</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.servlet:javax.servlet-api:3.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

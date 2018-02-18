@@ -1,0 +1,221 @@
+nav ul#menu_horizontal li{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 1em;
+}
+
+nav ul#menu_horizontal li a{
+    color: white;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+nav ul#menu_horizontal {
+    background-image: linear-gradient(red ,white 65%);
+    padding-bottom: 3.5%;
+    padding-top: 2%;
+    padding-left: 30%;
+    position: fixed;
+    width:100%;
+}
+
+div#logo{
+    position: fixed;
+    top: 0;
+    left:2.5%;
+}
+
+div#logo img{
+    width:175px;
+}
+
+nav ul#menu_horizontal li form div{
+    display: inline-block;
+}
+
+nav ul#menu_horizontal li form div input.rechercher{
+    background: url(../img/search.png);
+    border:none;
+    width: 20px; /* largeur à spécifier */
+    height: 20px; /* longueur à spécifier */
+    cursor: pointer;
+}
+
+footer{
+    background-image: linear-gradient(red ,white);
+    padding-bottom: 0.4%;
+    padding-top: 0.4%;
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    width:100%;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+body, html{
+    height:100%;
+    position: relative;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.annonce {
+    border-radius: 10px;
+    border-style: groove;
+    border-color: red;
+    width:35%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1.5%;
+}
+
+.annonce img.imgDescription{
+    float: left;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+ul#menu_vertical{
+    padding-left: 1%;
+    color: red;
+}
+
+ul#menu_vertical li{
+    list-style: none;
+    padding-bottom: 1%;
+
+}
+
+#criteres{
+    border-style: solid;
+    width:12%;
+    border-radius: 10px;
+    border-color: red;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.event{
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    width:20%;
+    text-align: center;
+    margin-left: 2%;
+}
+
+section{
+    padding-bottom: 5%;
+    padding-top: 13.5%;
+}
+
+#formulaireInscription{
+    text-align: center;
+    width:50%;
+    margin:auto;
+}
+
+hr{
+    margin: auto;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+#formulaireInscription label{
+    display: block;
+    width: 150px;
+    float: left;
+    margin-top: 3%;
+}
+
+
+#formulaireInscription input{
+    margin-top: 3%;
+}
+
+#formulaireInscription select{
+    margin-top: 3%;
+}
+
+#boutonConfirmer{
+    margin-right: 37.5%;
+    width: 25%;
+    margin-left: 37.5%;
+}
+
+#formulaireConnexion{
+    padding-top: 3%;
+    margin: auto;
+    text-align: center;
+}
+
+#formulaireConnexion form{
+    border: solid;
+    border-color: red;
+    border-radius: 10px;
+    width: 35%;
+    margin: auto;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#formulaireConnexion input{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#espaceAdmin{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+}
+
+#espaceAdmin .annonce{
+    width:50%;
+}
+
+#espaceAdmin h2{
+    padding-top: 1%;
+}
+
+#formulaireAnnonce{
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+#formulaireAnnonce div{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#formulaireAnnonce label{
+    display: block;
+    margin-bottom: 0.5%;
+}
+
+#bandeau{
+    text-align: center;
+    background-image: linear-gradient(red ,white);
+    color : white;
+    height: 16.5%;
+    margin-bottom: 5%;
+}
+
+#bandeau h1{
+    padding-top: 1.5%;
+    font-size: 50px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Inscription</title>
+        <link rel="stylesheet" type="text/css" href="../css/mainEnthreide.css"/>
+    </head>
+    <body>
+        <div id="bandeau">
+            <h1>ENTRHEIDE</h1>
+        </div>
+        <div id="formulaireInscription" >
+            <h1>Formulaire d'Inscription :</h1>
+            <hr color="red" width="100%" size="2">
+            <form action="inscription" methode="post" enctype="text/plain">
+                <div>
+                    <label for="nomU">Nom :</label>
+                    <input type="text" name="nomUser"  id="nomU"/>
+                 </div>
+                <div>
+                    <label for="prenomU">Pr&eacutenom :</label>
+                    <input type="text" name="prenomUser"  id="prenomU"/>
+                 </div>
+                 <div>
+                    <label for="emailU">Adresse e-mail :</label>
+                    <input type="text" name="emailUser"  id="emailU" placeholder="Nécessairement une adresse Yncréa" />
+                </div>
+                <div>
+                    <label for="psw">Mot de Passe :</label>
+                    <input type="password" name="pswUser"  id="psw"/>
+                </div>
+                <div>
+                    <label for="tel">Numéro de téléphone</label>
+                    <input type="text" name="telephoneUser" id="tel"/>
+                </div>
+                <div>
+                    <label for="AnneeU">Ann&eacutee :</label>
+                    <select name="select-type" id="anneeU">
+                        <option>HEI 1</option>
+                        <option>HEI 2</option>
+                        <option>HEI 3</option>
+                        <option>HEI 4</option>
+                        <option>HEI 5</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit" value="Confirmer l'inscription" id="boutonConfirmer"/>
+                </div>
+            </form>
+        </div>
+        <footer>
+        </footer>
+    </body>
+</html>
