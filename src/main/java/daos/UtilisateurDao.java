@@ -4,19 +4,28 @@ import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 import pojos.Utilisateur;
 
 
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class UtilisateurDao {
 
-
+    public DataSource getDataSource() {
+        MysqlDataSource dataSource = new MysqlDataSource();
+        dataSource.setServerName("dz8959rne9lumkkw.chr7pe7iynqr.eu-west-1.rds.amazonaws.com");
+        dataSource.setPort(3306);
+        dataSource.setDatabaseName("zslnuipp51jd5y6v");
+        dataSource.setUser("dp4jvkqdnadb9l84");
+        dataSource.setPassword("wrx65ot6vithoo4h");
+        return dataSource;
+    }
 
     public List<Utilisateur> listUtilisateur(){
         String query = "SELECT * FROM utilisateur";
         List<Utilisateur> utilisateurs = new ArrayList<>();
         try(
-                Connection connection = DataSourceProvider.getDataSource().getConnection();
+                Connection connection = getDataSource().getConnection();
                 Statement statement = connection.createStatement();
                 ResultSet resultSet = statement.executeQuery(query)
         ){
@@ -41,7 +50,7 @@ public class UtilisateurDao {
 
     public Utilisateur getUtilisateur(String mailUtilisateur) {
         String query = "SELECT * FROM utilisateur WHERE mailUtilisateur = ?";
-        try (Connection connection = DataSourceProvider.getDataSource().getConnection();
+        try (Connection connection = getDataSource().getConnection();
              PreparedStatement statement = connection.prepareStatement(query)) {
             statement.setString(1, mailUtilisateur);
             //statement.setString(2, mdpUtilisateur);
@@ -69,7 +78,7 @@ public class UtilisateurDao {
 
     public Utilisateur addUtilisateur(Utilisateur utilisateur){
         String query = "INSERT INTO utilisateur(nomUtilisateur, prenomUtilisateur, telephoneUtilisateur, mailUtilisateur, promoUtilisateur, administrateur, mdpUtilisateur) VALUES (?, ?, ?, ?, ?, ?, ?)";
-        try (Connection connection = DataSourceProvider.getDataSource().getConnection();
+        try (Connection connection = getDataSource().getConnection();
              PreparedStatement statement = connection.prepareStatement(query, Statement.RETURN_GENERATED_KEYS)) {
             statement.setString(1,utilisateur.getNomUtilisateur());
             statement.setString(2,utilisateur.getPrenomUtilisateur());
@@ -96,7 +105,7 @@ public class UtilisateurDao {
 
     public void modifMdpUtilisateur(Integer idUtilisateur, String newMdp){
         String query = "UPDATE utilisateur SET mdpUtilisateur = ? WHERE idUtilisateur = ?";
-        try(Connection connection = DataSourceProvider.getDataSource().getConnection();
+        try(Connection connection = getDataSource().getConnection();
             PreparedStatement statement = connection.prepareStatement(query)){
             statement.setString(1, newMdp);
             statement.setInt(2, idUtilisateur);
@@ -108,7 +117,7 @@ public class UtilisateurDao {
 
     public void modifPromoUtilisateur(Integer idUtilisateur, String NP){
         String query = "UPDATE utilisateur SET promoUtilisateur = ? WHERE idUtilisateur = ?";
-        try(Connection connection = DataSourceProvider.getDataSource().getConnection();
+        try(Connection connection = getDataSource().getConnection();
             PreparedStatement statement = connection.prepareStatement(query)){
             statement.setString(1, NP);
             statement.setInt(2, idUtilisateur);
@@ -120,7 +129,7 @@ public class UtilisateurDao {
 
     public void addTelephoneUtilisateur(Integer idUtilisateur, String numTelephone){
         String query = "UPDATE utilisateur SET telephoneUtilisateur = ? WHERE idUtilisateur = ?";
-        try(Connection connection = DataSourceProvider.getDataSource().getConnection();
+        try(Connection connection = getDataSource().getConnection();
             PreparedStatement statement = connection.prepareStatement(query)){
             statement.setString(1, numTelephone);
             statement.setInt(2, idUtilisateur);
@@ -133,7 +142,7 @@ public class UtilisateurDao {
     public String getStoredPassword(String mailUtilisateur) {
         String password = null;
         String query = "SELECT mdpUtilisateur FROM utilisateur WHERE mailUtilisateur = ?";
-        try (Connection connection = DataSourceProvider.getDataSource().getConnection();
+        try (Connection connection = getDataSource().getConnection();
              PreparedStatement statement = connection.prepareStatement(query)) {
             statement.setString(1, mailUtilisateur);
             try (ResultSet resultSet = statement.executeQuery()) {
