@@ -6,113 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30af3798-686e-4760-97a8-0226e373f9fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/daos/DataSourceProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/AnnonceServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/GenericServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/HistoriqueServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/InfoPersoServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/ListAnnonceBySearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/ListAnnonceServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/ListEvenementServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/MentionsLegalesServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/PetiteBiereServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/ProfilServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/SignalerAnnonceServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/SupprimerAnnonceServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/mentionsLegales.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/notAdmin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/notConnected.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/petiteBiere.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/zoomAnnonce.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/100HxProjet_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/100HxProjet_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/entrheide.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/daos/PhotoDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/services/PhotoService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/accueil.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/connexion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/inscription.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/annonce.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/espaceperso.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/mainEnthreide.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/img/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/img/logoff.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/img/myaccount.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/img/photo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/img/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/img/search1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/img/star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/PhotoDaoTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/daos/PhotoDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/services/PhotoService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/services/PhotoService$PhotoServiceHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/services/PhotoService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/daos/PhotoDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/services/PhotoService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/services/PhotoService$PhotoServiceHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/services/PhotoService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/css/annonce.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/css/espaceperso.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/PhotoDaoTestCase.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/daos/AnnonceDao.class" afterPath="$PROJECT_DIR$/target/classes/daos/AnnonceDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/daos/CategorieDao.class" afterPath="$PROJECT_DIR$/target/classes/daos/CategorieDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/daos/UtilisateurDao.class" afterPath="$PROJECT_DIR$/target/classes/daos/UtilisateurDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pojos/Annonce.class" afterPath="$PROJECT_DIR$/target/classes/pojos/Annonce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pojos/Utilisateur.class" afterPath="$PROJECT_DIR$/target/classes/pojos/Utilisateur.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/services/AnnonceService.class" afterPath="$PROJECT_DIR$/target/classes/services/AnnonceService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/services/CategorieService.class" afterPath="$PROJECT_DIR$/target/classes/services/CategorieService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/services/UtilisateurService.class" afterPath="$PROJECT_DIR$/target/classes/services/UtilisateurService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/AccueilServlet.class" afterPath="$PROJECT_DIR$/target/classes/servlets/AccueilServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/ConnexionServlet.class" afterPath="$PROJECT_DIR$/target/classes/servlets/ConnexionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/DeposerAnnonceServlet.class" afterPath="$PROJECT_DIR$/target/classes/servlets/DeposerAnnonceServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/InscriptionServlet.class" afterPath="$PROJECT_DIR$/target/classes/servlets/InscriptionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/ListAnnonceByCategoryServlet.class" afterPath="$PROJECT_DIR$/target/classes/servlets/ListAnnonceByCategoryServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/daos/AnnonceDao.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/daos/AnnonceDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/daos/CategorieDao.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/daos/CategorieDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/daos/UtilisateurDao.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/daos/UtilisateurDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/pojos/Annonce.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/pojos/Annonce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/pojos/Utilisateur.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/pojos/Utilisateur.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/services/AnnonceService.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/services/AnnonceService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/services/CategorieService.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/services/CategorieService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/services/UtilisateurService.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/services/UtilisateurService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/servlets/AccueilServlet.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/servlets/AccueilServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/servlets/ConnexionServlet.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/servlets/ConnexionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/servlets/DeposerAnnonceServlet.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/servlets/DeposerAnnonceServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/servlets/InscriptionServlet.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/servlets/InscriptionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/servlets/ListAnnonceByCategoryServlet.class" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/classes/servlets/ListAnnonceByCategoryServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AnnonceDaoTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/AnnonceDaoTestCase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/CategorieDaoTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/CategorieDaoTestCase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/UtilisateurDaoTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/UtilisateurDaoTestCase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daos/AnnonceDao.java" afterPath="$PROJECT_DIR$/src/main/java/daos/AnnonceDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daos/CategorieDao.java" afterPath="$PROJECT_DIR$/src/main/java/daos/CategorieDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daos/UtilisateurDao.java" afterPath="$PROJECT_DIR$/src/main/java/daos/UtilisateurDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pojos/Annonce.java" afterPath="$PROJECT_DIR$/src/main/java/pojos/Annonce.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pojos/Utilisateur.java" afterPath="$PROJECT_DIR$/src/main/java/pojos/Utilisateur.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/services/AnnonceService.java" afterPath="$PROJECT_DIR$/src/main/java/services/AnnonceService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/services/CategorieService.java" afterPath="$PROJECT_DIR$/src/main/java/services/CategorieService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/services/UtilisateurService.java" afterPath="$PROJECT_DIR$/src/main/java/services/UtilisateurService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/AccueilServlet.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/AccueilServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/ConnexionServlet.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/ConnexionServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/DeposerAnnonceServlet.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/DeposerAnnonceServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/InscriptionServlet.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/InscriptionServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/ListAnnonceByCategoryServlet.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/ListAnnonceByCategoryServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/sql/creationTables.sql" afterPath="$PROJECT_DIR$/src/main/sql/creationTables.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AnnonceDaoTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/AnnonceDaoTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CategorieDaoTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/CategorieDaoTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/UtilisateurDaoTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/UtilisateurDaoTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/templates/accueil.html" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/templates/accueil.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/templates/connexion.html" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/templates/connexion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/templates/inscription.html" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/WEB-INF/templates/inscription.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/css/mainEnthreide.css" afterPath="$PROJECT_DIR$/target/entrheide-1.0-SNAPSHOT/css/mainEnthreide.css" />
-    </list>
+    <list default="true" id="30af3798-686e-4760-97a8-0226e373f9fa" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -636,7 +530,7 @@
       <workItem from="1523803829460" duration="619000" />
       <workItem from="1523811568908" duration="14866000" />
       <workItem from="1523901283782" duration="3501000" />
-      <workItem from="1523905597443" duration="1732000" />
+      <workItem from="1523905597443" duration="1999000" />
     </task>
     <servers />
   </component>
@@ -673,7 +567,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74212000" />
+    <option name="totallyTimeSpent" value="74479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -685,8 +579,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.014675053" sideWeight="0.5012903" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5019355" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.49806452" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42068484" sideWeight="0.49870968" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
