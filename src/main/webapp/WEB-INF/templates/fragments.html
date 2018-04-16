@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>fragments</title>
+    <div th:fragment="liensCSS">
+        <link rel="stylesheet" type="text/css" href="../../css/mainEnthreide.css" th:href="@{css/mainEnthreide.css}"/>
+        <link rel="stylesheet" type="text/css" href="../../css/espaceperso.css" th:href="@{css/espaceperso.css}"/>
+        <link rel="stylesheet" type="text/css" href="../../css/annonce" th:href="@{css/annonce.css}"/>
+    </div>
+    <script type="application/javascript" src="script/script.js" ></script>
+</head>
+<body>
+<header th:fragment="menu">
+    <nav>
+        <ul id="menu_horizontal">
+            <li ><a href="/evenements" class="bouton">&Eacutevenements</a></li>
+            <li><a href="/annonces" class="bouton">Annonces</a></li>
+            <li><form action="/accueil" method="post">
+                <div id="recherche">
+                    <input type="text" name="recherche" placeholder="Recherche" >
+                </div>
+                <div id="valider">
+                    <input type="submit" class="rechercher" value="">
+                </div>
+            </form>
+            </li>
+            <li><a href="/profil"><img src="img/myaccount.png" alt="myaccount" id="buttonAccount" /></a></li>
+            <li><a href="/deconnexion"><img src="img/logoff.png" alt="logoff" id="buttonOff" /></a></li>
+        </ul>
+    </nav>
+    <div id="logo">
+        <a href="/accueil"><img src="img/logo.png" alt="logo" class="boutonHome" /></a>
+    </div>
+</header>
+<div th:fragment="annonceDuJour">
+    <div id="annonceDuJour" class="annonce" th:each="annonce:${AnnonceDuJour}">
+        <img src="img/photo.png" alt="photo" class="imgDescription"/>
+        <div>
+            <a th:href="${'Zoom?id=' +annonce.idAnnonce}"><h2 th:text="${annonce.titreAnnonce}">Titre Annonce</h2></a>
+            <p th:text="${annonce.descriptionAnnonce}">Description de l'annonce</p>
+        </div>
+    </div>
+</div>
+
+<div th:fragment="annoncePetite" >
+    <div id="afficheannonce" class="annonce" th:each="annonce:${Annonce}">
+        <img src="img/photo.png" alt="photo" class="imgDescription"/>
+        <div>
+            <a th:href="${'Zoom?id=' +annonce.idAnnonce}"><h2 th:text="${annonce.titreAnnonce}">Titre Annonce</h2></a>
+            <p th:text="${annonce.descriptionAnnonce}">Description de l'annonce</p>
+        </div>
+    </div>
+</div>
+
+
+<div th:fragment="categorie" class="annonce">
+    <h1 id="titreRecherche">RECHERCHE PAR CATEGORIE</h1>
+    <div style="display: none" id="cat" class="cache" >
+        <div th:each="categorie :${Categorie}">
+            <a th:href="${'listAnnonceByCategory?id='+categorie.idCategorie}"  th:text="${categorie.nomCategorie}">Une Catégorie</a>
+        </div>
+    </div>
+    <div class="voir"><img src="img/voirPlus.png" id="voir"  width="20px" onclick="afficherCacher();"></div>
+
+</div>
+
+<section th:fragment="annoncePrecise" >
+
+        <section class="secA" th:each="annonce:${Annonce}">
+            <section class="detail">
+                <div class="pic">
+                    <img src="img/livremathprepa.jpg" class="picAnnonce" />
+                </div>
+                <div class="descriptif" >
+                    <div><p th:text="${annonce.titreAnnonce}">Titre</p></div>
+                    <div><p th:text="${'Annonce postée par '+annonce.utilisateurAnnonce.getNomUtilisateur() + 'le ' + annonce.dateAnnonce}">Annonce postée par Maxime P le 12/01/2018</p></div>
+                    <div><p th:text="${annonce.descriptionAnnonce}">Ce livre de maths pour les classes prépas sera votre meilleur amis pendant vos deux premieres année. n'hésitez plus, et contactez moi pour plus d'info.
+                        Je fixe le prix à 15 euros mais vous pouvez toujours tenter de négocier ;)</p></div>
+                </div>
+            </section>
+            <section class="option">
+                <div class="opt" id="contact">
+                    <a th:each="utilisateur:${mail}" th:href="'mailto:' + ${mail}">CONTACTER L'ANNONCEUR</a>
+                </div>
+                <div class="opt" id="signal">
+                    <a th:href="${'signaler?id=' +annonce.idAnnonce}" href="/signaler">SIGNALER L'ANNONCE</a>
+                </div>
+            </section>
+
+        </section>
+
+
+</section>
+
+<div th:fragment="bienvenue">
+    <h1>ENTRHEIDE</h1>
+    <p>Bienvuenue sur le site d'entraide entre HEIIENS</p>
+</div>
+
+<div th:fragment="espaceAdmin" id="espaceAdmin">
+    <h1>Espace Administrateur</h1>
+    <hr color="red" width="55%" size="2">
+    <h2>Derni&egravere annonce signal&eacutee</h2><button  id="voirPlusBtn" onclick="voirPlusSignal();">Voir Plus</button>
+    <section id="conteneurSignal">
+        <section id="contenuSignal">
+    <div class="annonce" th:each="annonce:${Signal}">
+        <img src="img/photo.png" alt="photo" class="imgDescription"/>
+        <div>
+            <h2 th:text="${annonce.titreAnnonce}">Titre Annonce</h2>
+            <p th:text="${annonce.descriptionAnnonce}">Description de l'annonce</p>
+        </div>
+        <a th:href="${'supprimer?titre='+annonce.titreAnnonce}"><img src="img/delete.png" alt="delete" class="delete"/></a>
+    </div>
+        </section>
+    </section>
+    <a href="#">Voir toutes les annonces signal&eacutees</a>
+    <hr color="red" width="55%" size="2">
+    <h2>Ajouter un &eacutev&egravenement</h2>
+    <div id="formulaireEvent">
+        <form action="/admin" method="post">
+            <div>
+                <label for="nomE">Titre :</label>
+                <input type="text" name="nomEvent"  id="nomE"/>
+            </div>
+            <div>
+                <label for="dateE">Date :</label>
+                <input type="date" name="dateEvent" id="dateE">
+            </div>
+           <!-- <div>
+                <form action="" methode="post" enctype="multipart/form-data">
+                    <label for="imgE">Photo :</label>
+                    <input type="hidden" name="MAX_FILE_SIZE" value="1048576"/>
+                    <input type="file" name="imgEvent" id="imgE"/>
+                </form>
+            </div>-->
+            <div>
+                <input type="submit" name="confirmerEvent" value="Valider"/>
+            </div>
+        </form>
+    </div>
+    <hr color="red" width="55%" size="2">
+    <h2>Supprimer un &eacutev&egravenement</h2>
+    <div id="supprimerEvent">
+        <form action="" method="post">
+            <div>
+                <select name="titreEvent" id="eventSupprimer">
+                    <option th:each="annonce :${Annonce}" th:text="${annonce.titreAnnonce}" >annonce</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" name="supprimerEvent" value="Supprimer"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<section th:fragment="monProfil" class="monProfil">
+    <div>
+        <h1>MON PROFIL</h1>
+    </div>
+    <hr/>
+    <div>
+        <p>Nombre d'annnonces publi&eacutees :
+            <!--thymeleaf? requete SQL-->
+        </p>
+    </div>
+    <hr/>
+    <div>
+        <div class="link"><a href="/infosperso">MODIFIER MES INFORMATIONS</a></div>
+        <div class="link"><a href="/historique">CONSULTER MON HISTORIQUE</a></div>
+        <div class="link"><a href="/admin">ESPACE ADMINISTRATEUR</a></div>
+    </div>
+</section>
+
+<div th:fragment="event"  id="slider">
+    <div id="slide">
+        <div th:each="annonce:${Annonce}" class="event" id="event"><img src="img/photo.png" id="imgevent" alt="photo" class="imgDescription"/>
+            <h2 th:text="${annonce.titreAnnonce}">Titre de l'&Eacutev&egravenement</h2>
+            <p th:text="${annonce.dateAnnonce}">DD/MM/YYYY</p>
+        </div>
+    </div>
+
+
+</div>
+
+<div id="formulaireConnexion" th:fragment="formConnexion">
+    <h1>Entr'Heide</h1>
+    <h2>Bienvenue sur le site d'entraide r&eacuteserv&eacute aux Heiiens</h2>
+    <form action="connexion" method="post">
+        <div>
+            <input type="text" name="mailConnexion" placeholder="Adresse e-mail"/>
+        </div>
+        <div>
+            <input type="password" name="pswConnexion" placeholder="Mot de Passe">
+        </div>
+        <div>
+            <input type="submit" name="confirmerConnexion" value="Je me connecte" />
+        </div>
+        <a href="inscription">Je ne suis pas encore inscrit</a>
+    </form>
+</div>
+
+<div id="formulaireInscription" th:fragment="formInscription">
+    <h1>Formulaire d'Inscription :</h1>
+    <hr color="red" width="100%" size="2">
+    <form action="/inscription" method="post" >
+        <div>
+            <label for="nomU">Nom :</label>
+            <input type="text" name="nomUser"  id="nomU"/>
+        </div>
+        <div>
+            <label for="prenomU">Pr&eacutenom :</label>
+            <input type="text" name="prenomUser"  id="prenomU"/>
+        </div>
+        <div>
+            <label for="emailU">Adresse e-mail :</label>
+            <input type="text" name="emailUser"  id="emailU" placeholder="Adresse Yncrea" />
+        </div>
+        <div>
+            <label for="psw">Mot de Passe :</label>
+            <input type="password" name="pswUser"  id="psw"/>
+        </div>
+        <div>
+            <label for="tel">Num&eacutero de t&eacutel&eacutephone</label>
+            <input type="text" name="telephoneUser" id="tel"/>
+        </div>
+        <div>
+            <label for="AnneeU">Ann&eacutee :</label>
+            <select name="select-type" id="anneeU">
+                <option>H1</option>
+                <option>H2</option>
+                <option>H3</option>
+                <option>H4</option>
+                <option>H5</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Confirmer l'inscription" id="boutonConfirmer"/>
+        </div>
+    </form>
+</div>
+
+<div id="formulaireAnnonce" th:fragment="formulaireAnnonce">
+    <h1>Je souhaite d&eacuteposer une annonce</h1>
+    <hr color="red" width="70%" size="2">
+    <form action="/deposerannonce" method="post" >
+        <div>
+            <label for="nomA">Titre de l'annonce :</label>
+            <input type="text" name="nomAdd"  id="nomA"/>
+        </div>
+        <div>
+            <label for="descriptionA">Description de l'annonce :</label>
+            <textarea name="descriptionAdd"  id="descriptionA"></textarea>
+        </div>
+        <div>
+            <label for="keyA">Mots-clefs :</label>
+            <input type="text" name="keyAdd"  id="keyA"/>
+        </div>
+        <div>
+            <label for="categorieA">Cat&eacutegorie :</label>
+            <select name="categorieAdd" id="categorieA" >
+                <option th:each="categorie :${Categorie}" th:text="${categorie.nomCategorie}">categorie</option>
+
+            </select>
+        </div>
+        <!--<div>
+            <form action="" method="post" enctype="multipart/form-data">
+                <label for="imgA">Photo :</label>
+                <input type="hidden" name="MAX_FILE_SIZE" value="1048576"/>
+                <input type="file" name="imgAdd" id="imgA"/>
+            </form>
+        </div>!-->
+        <div>
+            <input type="submit" name="envoyerAdd" value="Envoyer l'annonce"/>
+        </div>
+    </form>
+</div>
+
+<div th:fragment="scriptStar">
+    <script type="text/javascript">
+        function changeStar(){
+            var x = document.getElementById("star");
+            var v = x.getAttribute("src");
+            if (v=="img/star.png")
+            {v="img/starL.png"}
+            else
+            {v="img/star.png"}
+            x.src=v;
+        }
+    </script>
+</div>
+
+<section class="historique" th:fragment="historique">
+    <div><h1>MON HISTORIQUE</h1></div>
+    <hr/>
+    <section class="annoncepubliee">
+        <h2>Derni&egravere annonce publi&eacutee</h2><button  id="voirPlus" onclick="voirPlus();">Voir Plus</button>
+
+        <section id="conteneur">
+            <section id="contenu">
+                <div id="annonceContenue" class="annonce" th:each="annonce:${Annonce}">
+                    <img src="img/photo.png" alt="photo" class="imgDescription"/>
+                    <div>
+                        <a th:href="${'Zoom?id=' +annonce.idAnnonce}"><h2 th:text="${annonce.titreAnnonce}">Titre Annonce</h2></a>
+                        <p th:text="${annonce.descriptionAnnonce}">Description de l'annonce</p>
+                    </div>
+                    <a th:href="${'supprimer?titre='+annonce.titreAnnonce}"><img src="img/delete.png" alt="delete" class="delete"/></a>
+                </div>
+            </section>
+        </section>
+
+    </section>
+
+</section>
+
+<section class="infos" th:fragment="infosPerso">
+    <div>
+        <h1>GESTION DE MON ESPACE PERSONNEL</h1>
+    </div>
+    <hr/>
+    <section class="mdp">
+        <h2>Je souhaite changer mon mot de passe</h2>
+        <form action="/infosperso"method="post" id="mdp">
+            <div><label>Nouveau</label><input type="text" name="Nouveau" required /></div>
+            <div><label>Confirmer</label><input type="text" name="Confirmer" required /></div>
+            <div><input type="submit" name="envoyer"></div>
+        </form>
+    </section>
+    <hr/>
+    <section class="annee">
+        <h2>Je souhaite mettre &agrave jour mon ann&eacutee</h2>
+        <form action="/infosperso" method="post" id="year">
+            <div><select name="newPromo">
+                <option>H1</option>
+                <option>H2</option>
+                <option>H3</option>
+                <option>H4</option>
+                <option>H5</option>
+            </select></div>
+            <div><input type="submit" name="envoyerannee"></div>
+        </form>
+    </section>
+    <hr/>
+    <section class="num">
+        <h2>Je souhaite afficher mon num&eacutero sur mes annonces</h2>
+        <form action="/infosperso" method="post">
+        <div><input type="text" name="numtel"></div>
+        <div><input type="submit" name="envoyernum"></div>
+        </form>
+    </section>
+</section>
+
+<div th:fragment="menu_Vertical" class="menuV">
+    <div id ="menu_vertical">
+        <div><form action="ListeAnnonceByCategory" method="post" enctype="text/plain">
+            <div id="categorie" class="espacediv">
+                <label for="select-type">Cat&eacutegories</label>
+                <select name="select-type" id="select-type" >
+                    <option th:each="categorie :${Categorie}" th:text="${categorie.nomCategorie}">Catégorie</option>
+
+                </select>
+            </div>
+            <div class="espacediv"><p>Mots Clefs : Mots clefs entr&eacutes</p></div>
+
+            <div id="criteres" class="espacediv">
+                <p>Affiner la recherche :</p>
+                <p><form action="#" methode="post" enctype="text/plain">
+                <input type="checkbox" name="critere1" value="1"> Crit&egravere 1<br>
+                <input type="checkbox" name="critere2" value="2"> Crit&egravere 2<br>
+                <input type="checkbox" name="critere3" value="3"> Crit&egravere 3<br>
+                <input type="checkbox" name="critere4" value="4"> Crit&egravere 4<br>
+                <input type="checkbox" name="critere5" value="5"> Crit&egravere 5
+            </form>
+                </p>
+            </div>
+            <div id="button" class="espacediv">
+                <input href="listAnnonceByCategory" type="button" action="listAnnonceByCategory?id=" value="SOUMETTRE">
+            </div>
+        </form></div>
+
+        </div>
+    </div>
+</div>
+
+<div th:fragment="footer"><a href="/mentionsLegales">Mentions L&eacutegales</a></div>
+</body>
+</html>

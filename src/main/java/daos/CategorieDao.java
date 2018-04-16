@@ -39,6 +39,23 @@ public class CategorieDao {
         return categories;
     }
 
+    public List<Categorie> listCategorieWithoutEvent(){
+        List<Categorie> categories = new ArrayList<>();
+        try(Connection connection = getDataSource().getConnection();
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM categorie WHERE NOT nomCategorie='Evenement'")){
+            while(resultSet.next()) {
+                categories.add(new Categorie(
+                        resultSet.getInt("idCategorie"),
+                        resultSet.getString("nomCategorie")
+                ));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return categories;
+    }
+
     public void addCategorie(String nomCategorie) {
         String query = "INSERT INTO categorie (nomCategorie) VALUES(?)";
         try (Connection connection = getDataSource().getConnection();

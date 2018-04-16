@@ -11,17 +11,19 @@ public class Annonce {
     private String motsClefsAnnonce;
     private LocalDate dateAnnonce;
     private boolean evenement;
+    private boolean signalee;
     private Categorie CategorieAnnonce;
     private Utilisateur UtilisateurAnnonce;
 
 
-    public Annonce(Integer idAnnonce, String titreAnnonce, String descriptionAnnonce, String motsClefsAnnonce, LocalDate dateAnnonce, boolean evenement, Categorie CategorieAnnonce, Utilisateur UtilisateurAnnonce){
+    public Annonce(Integer idAnnonce, String titreAnnonce, String descriptionAnnonce, String motsClefsAnnonce, LocalDate dateAnnonce, boolean evenement, boolean signalee, Categorie CategorieAnnonce, Utilisateur UtilisateurAnnonce){
         this.idAnnonce = idAnnonce;
         this.titreAnnonce = titreAnnonce;
         this.descriptionAnnonce = descriptionAnnonce;
         this.motsClefsAnnonce = motsClefsAnnonce;
         this.dateAnnonce = dateAnnonce;
         this.evenement = evenement;
+        this.signalee = signalee;
         this.CategorieAnnonce = CategorieAnnonce;
         this.UtilisateurAnnonce = UtilisateurAnnonce;
     }
@@ -63,6 +65,9 @@ public class Annonce {
 
     public boolean getEvenement() { return evenement;}
     public void setEvenement(boolean evenement) { this.evenement = evenement;}
+
+    public boolean getSignalee() { return signalee;}
+    public void setSignalee(boolean signalee) { this.signalee = signalee;}
 
     public Categorie getCategorieAnnonce() {
         return CategorieAnnonce;

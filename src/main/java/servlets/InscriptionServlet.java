@@ -14,18 +14,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet("/inscription")
-public class InscriptionServlet  extends HttpServlet{
+public class InscriptionServlet  extends GenericServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(req.getServletContext());
-        templateResolver.setPrefix("WEB-INF/templates/");
-        templateResolver.setSuffix(".html" + "");
-
-        TemplateEngine templateEngine = new TemplateEngine();
-        templateEngine.setTemplateResolver(templateResolver);
-
         WebContext context = new WebContext(req, resp, req.getServletContext());
 
+        TemplateEngine templateEngine = createTemplateEngine(req.getServletContext());
         templateEngine.process("inscription", context, resp.getWriter());
     }
 
@@ -36,18 +30,19 @@ public class InscriptionServlet  extends HttpServlet{
 
         String nomUtilisateur = req.getParameter("nomUser");
         String prenomUtilisateur = req.getParameter("prenomUser");
-        String telephoneUtilisateur = null;
+        String telephoneUtilisateur = req.getParameter("telephoneUser");
         String mailUtilisateur = req.getParameter("emailUser");
         String mdpUtilisateur = req.getParameter("pswUser");
         String promoUtilisateur = req.getParameter("select-type");
-        Boolean administrateur = false;
+        Integer administrateur = 0;
 
         //CREATE NEW USER
 
-        Utilisateur utilisateur = new Utilisateur(null, nomUtilisateur, prenomUtilisateur, telephoneUtilisateur, mailUtilisateur, promoUtilisateur, administrateur, mdpUtilisateur);
-        UtilisateurService.getInstance().addUtilisateur(utilisateur);
-        req.getSession().setAttribute("mailUtilisateur", mailUtilisateur);
-        req.getSession().setAttribute("mdpUtilisateur", mdpUtilisateur);
+        Utilisateur utilisateurInscrit = new Utilisateur(null, nomUtilisateur, prenomUtilisateur, telephoneUtilisateur, mailUtilisateur, promoUtilisateur, administrateur, mdpUtilisateur);
+        UtilisateurService.getInstance().addUtilisateur(utilisateurInscrit);
         resp.sendRedirect("/accueil");
+        //}
+
+
     }
 }

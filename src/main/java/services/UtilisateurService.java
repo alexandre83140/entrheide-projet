@@ -22,7 +22,15 @@ public class UtilisateurService {
 
     public List<Utilisateur> listUtilisateur(){ return utilisateurDao.listUtilisateur();}
 
-    public Utilisateur getUtilisateur(String mailUtilisateur, String mdpUtilisateur) { return utilisateurDao.getUtilisateur(mailUtilisateur, mdpUtilisateur);}
+    public Utilisateur getUtilisateur(String mailUtilisateur) { return utilisateurDao.getUtilisateur(mailUtilisateur);}
 
     public Utilisateur addUtilisateur(Utilisateur utilisateur){ return utilisateurDao.addUtilisateur(utilisateur);}
+
+    public void modifMdpUtilisateur(Integer idUtilisateur, String newMdp){ utilisateurDao.modifMdpUtilisateur(idUtilisateur, newMdp);}
+
+    public void modifPromoUtilisateur(Integer idUtilisateur, String NP){ utilisateurDao.modifPromoUtilisateur(idUtilisateur, NP);}
+
+    public void addTelephoneUtilisateur(Integer idUtilisateur, String numTelephone){ utilisateurDao.addTelephoneUtilisateur( idUtilisateur, numTelephone);}
+
+    public String getStoredPassword(String mailUtilisateur) {return utilisateurDao.getStoredPassword(mailUtilisateur);}
 }

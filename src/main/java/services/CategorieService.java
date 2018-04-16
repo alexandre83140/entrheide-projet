@@ -24,6 +24,10 @@ public class CategorieService {
         return categorieDao.listCategorie();
     }
 
+    public List<Categorie> listCategorieWithoutEvent(){
+        return categorieDao.listCategorieWithoutEvent();
+    }
+
     public void addCategorie(String nomCategorie) { categorieDao.addCategorie(nomCategorie);}
 
     public Categorie getCategorie(String nomCategorie){ return categorieDao.getCategorie(nomCategorie);}

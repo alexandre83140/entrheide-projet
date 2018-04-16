@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>LesAnnonces</title>
+    <link rel="stylesheet" type="text/css" href="../../css/mainEnthreide.css" th:href="@{css/mainEnthreide.css}"/>
+    <link rel="stylesheet" type="text/css" href="../../css/espaceperso.css" th:href="@{css/espaceperso.css}"/>
+    <link rel="stylesheet" type="text/css" href="../../css/annonce" th:href="@{css/annonce.css}"/>
+
+    <script>function changeStar(){
+        var x = document.getElementById("star");
+        var v = x.getAttribute("src");
+        if (v=="img/star.png")
+        {v="img/starL.png"}
+        else
+        {v="img/star.png"}
+        x.src=v;
+    }</script>
+
+
+</head>
+<body>
+<div th:insert="~{fragments::menu}"></div>
+<section>
+    <div id="lesannonces">
+        <section class="alignAd" id="gauche"><div th:replace="~{fragments::menu_Vertical}"></div></section>
+
+        <section class="alignAd" id="droite"><div th:replace="~{fragments::annoncePetite}"></div></section>
+    </div>
+</section>
+
+</body>
+<footer th:insert="~{fragments::footer}"></footer>
+</html>

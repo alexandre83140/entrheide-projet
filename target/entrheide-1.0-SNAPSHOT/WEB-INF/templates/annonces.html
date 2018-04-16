@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Annonces</title>
+    <link rel="stylesheet" type="text/css" href="../../css/mainEnthreide.css" th:href="@{css/mainEnthreide.css}"/>
+    <link rel="stylesheet" type="text/css" href="../../css/espaceperso.css" th:href="@{css/espaceperso.css}"/>
+    <link rel="stylesheet" type="text/css" href="../../css/annonce" th:href="@{css/annonce.css}"/>
+</head>
+<body>
+<div th:insert="~{fragments::menu}"></div>
+<section class="sectionAnnonce">
+    <div>
+        <a class="divAnnonce" href="/deposerannonce">DEPOSER UNE ANNONCE</a>
+    </div>
+    <div >
+        <hr class="barreVerticale"/>
+    </div>
+    <div>
+        <a class="divAnnonce" href="/allannonces">RECHERCHER UNE ANNONCE</a>
+    </div>
+</section>
+<footer th:insert="~{fragments::footer}"></footer>
+</body>
+</html>

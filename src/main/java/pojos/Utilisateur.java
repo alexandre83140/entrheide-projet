@@ -8,10 +8,10 @@ public class Utilisateur {
     private String telephoneUtilisateur;
     private String mailUtilisateur;
     private String promoUtilisateur;
-    private boolean administrateur;
+    private Integer administrateur;
     private String mdpUtilisateur;
 
-    public Utilisateur(Integer idUtilisateur, String nomUtilisateur, String prenomUtilisateur, String telephoneUtilisateur, String mailUtilisateur, String promoUtilisateur, boolean administrateur, String mdpUtilisateur){
+    public Utilisateur(Integer idUtilisateur, String nomUtilisateur, String prenomUtilisateur, String telephoneUtilisateur, String mailUtilisateur, String promoUtilisateur, Integer administrateur, String mdpUtilisateur){
         this.idUtilisateur = idUtilisateur;
         this.nomUtilisateur = nomUtilisateur;
         this.prenomUtilisateur = prenomUtilisateur;
@@ -70,11 +70,11 @@ public class Utilisateur {
         this.promoUtilisateur = promoUtilisateur;
     }
 
-    public boolean getAdministrateur() {
+    public Integer getAdministrateur() {
         return administrateur;
     }
 
-    public void setAdministrateur(boolean administrateur) {
+    public void setAdministrateur(Integer administrateur) {
         this.administrateur = administrateur;
     }
 

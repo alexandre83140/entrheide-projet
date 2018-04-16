@@ -1,30 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Connexion</title>
-        <link rel="stylesheet" type="text/css" href="../css/mainEnthreide.css"/>
-    </head>
-    <body>
-    <div id="bandeau">
-    </div>
-    <div id="formulaireConnexion">
-        <h1>EntreHeide</h1>
-        <h2>Bienvenue sur le site d'entraide r&eacuteserv&eacute aux Heiiens</h2>
-        <form action="connexion" methode="post" enctype="text/plain">
-            <div>
-                <input type="text" name="mailConnexion" placeholder="Adresse e-mail"/>
-            </div>
-            <div>
-                <input type="password" name="pswConnexion" placeholder="Mot de Passe">
-            </div>
-            <div>
-                <input type="submit" name="confirmerConnexion" value="Je me connecte"/>
-            </div>
-            <a href="inscription">Je ne suis pas encore inscrit</a>
-        </form>
-    </div>
-    <footer>
-    </footer>
-    </body>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenue sur Enthreide</title>
+    <link rel="stylesheet" type="text/css" href="../../css/mainEnthreide.css" th:href="@{css/mainEnthreide.css}"/>
+    <link rel="stylesheet" type="text/css" href="../../css/espaceperso.css" th:href="@{css/espaceperso.css}"/>
+    <link rel="stylesheet" type="text/css" href="../../css/annonce" th:href="@{css/annonce.css}"/>
+</head>
+<body action="connexion">
+<div id="bandeau">
+</div>
+
+    <div th:insert="~{fragments::formConnexion}"></div>
+
+</body>
 </html>

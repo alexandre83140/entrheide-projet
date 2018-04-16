@@ -20,10 +20,14 @@ public class CategorieDaoTestCase {
     public void initDatabase() throws Exception{
         try (Connection connection = categorieDao.getDataSource().getConnection();
              Statement stmt = connection.createStatement()){
+            stmt.executeUpdate("DELETE FROM `annonce`");
+            stmt.executeUpdate("DELETE FROM `utilisateur`");
             stmt.executeUpdate("DELETE FROM `categorie`");
             stmt.executeUpdate("INSERT INTO `categorie`(idCategorie, nomCategorie) VALUES (1, 'Nom #1')");
             stmt.executeUpdate("INSERT INTO `categorie`(idCategorie, nomCategorie) VALUES (2, 'Nom #2')");
-            stmt.executeUpdate("INSERT INTO `categorie`(idCategorie, nomCategorie) VALUES (3, 'Nom #3')");
+            stmt.executeUpdate("INSERT INTO `categorie`(idCategorie, nomCategorie) VALUES (3, 'Evenement')");
+
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -38,7 +42,21 @@ public class CategorieDaoTestCase {
         assertThat(categories).extracting("idCategorie","nomCategorie").containsOnly(
                 tuple(1, "Nom #1"),
                 tuple(2, "Nom #2"),
-                tuple(3, "Nom #3")
+                tuple(3, "Evenement")
+
+        );
+    }
+
+    @Test
+    public void shoulListCategorieWithoutEvent(){
+        //WHEN
+        List<Categorie> categories = categorieDao.listCategorieWithoutEvent();
+        //THEN
+        assertThat(categories).hasSize(2);
+        assertThat(categories).extracting("idCategorie","nomCategorie").containsOnly(
+                tuple(1, "Nom #1"),
+                tuple(2, "Nom #2")
+
         );
     }
 

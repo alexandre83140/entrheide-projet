@@ -1,35 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Accueil</title>
-    <link rel="stylesheet" type="text/css" href="../css/mainEnthreide.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/mainEnthreide.css" th:href="@{css/mainEnthreide.css}"/>
+    <link rel="stylesheet" type="text/css" href="../../css/espaceperso.css" th:href="@{css/espaceperso.css}"/>
+    <link rel="stylesheet" type="text/css" href="../../css/annonce" th:href="@{css/annonce.css}"/>
+
+    <script type="application/javascript" src="script/script.js" ></script>
+
+
 </head>
-<body>
-<header>
-    <nav>
-        <ul id="menu_horizontal">
-            <li ><a href="#" class="bouton">&Eacutevenements</a></li>
-            <li><a href="#" class="bouton">Annonces</a></li>
-            <li><form action="#" methode="post" enctype="text/plain">
-                <div id="recherche">
-                    <input type="text" name="recherche" placeholder="Recherche" id="recherche">
-                </div>
-                <div id="valider">
-                    <input type="submit" class="rechercher" value="">
-                </div>
-            </form>
-            </li>
-            <li><a href="#"><img src="img/myaccount.png" alt="myaccount" id="buttonAccount" /></a></li>
-            <li><a href="#"><img src="img/logoff.png" alt="logoff" id="buttonOff" /></a></li>
-        </ul>
-    </nav>
-    <div id="logo">
-        <a href="#"><img src="img/logo.png" alt="logo" class="boutonHome" /></a>
-    </div>
-</header>
-<footer>
-    <a href="#">Mentions Légales</a>
-</footer>
+<body action="accueil">
+<div th:insert="~{fragments::menu}"></div>
+<section>
+
+    <div th:insert="~{fragments::categorie}"></div>
+    <div class="annonce" id="dayAd">A NE PAS RATER !</div>
+    <div th:insert="~{fragments::annonceDuJour}"></div>
+
+    <div class="annonce"><a href="/petitebiere">UNE PETITE SOIF?</a></div>
+</section>
+
 </body>
+<footer th:insert="~{fragments::footer}"></footer>
 </html>

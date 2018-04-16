@@ -11,7 +11,7 @@ nav ul#menu_horizontal li a{
 }
 
 nav ul#menu_horizontal {
-    background-image: linear-gradient(red ,white 65%);
+    background-image: linear-gradient(#e10000 ,white 75%);
     padding-bottom: 3.5%;
     padding-top: 2%;
     padding-left: 30%;
@@ -42,7 +42,7 @@ nav ul#menu_horizontal li form div input.rechercher{
 }
 
 footer{
-    background-image: linear-gradient(red ,white);
+    background-image: linear-gradient(#e10000,#ffb5b5);
     padding-bottom: 0.4%;
     padding-top: 0.4%;
     text-align: center;
@@ -69,11 +69,19 @@ body, html{
 .annonce {
     border-radius: 10px;
     border-style: groove;
-    border-color: red;
+    border-color: #e10000;
     width:35%;
     text-align: center;
     margin: auto;
     margin-bottom: 1.5%;
+    display: block;
+}
+.secA{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
+    padding: 0px;
 }
 
 .annonce img.imgDescription{
@@ -82,10 +90,15 @@ body, html{
     padding-top: 1%;
     padding-bottom: 1%;
 }
+.menuV{
+margin-top: 90px;
+
+
+}
 
 ul#menu_vertical{
     padding-left: 1%;
-    color: red;
+    color: #e10000;
 }
 
 ul#menu_vertical li{
@@ -93,24 +106,30 @@ ul#menu_vertical li{
     padding-bottom: 1%;
 
 }
-
+.espacediv{
+    margin: 30px;
+}
 #criteres{
     border-style: solid;
-    width:12%;
     border-radius: 10px;
-    border-color: red;
+    border-color: #e10000;
     padding-left: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
+    width: 80%;
+    margin: 10px;
 }
 
 .event{
     border-style: solid;
-    border-color: red;
+    border-color: #e10000;
     border-radius: 10px;
     width:20%;
+    justify-content: center;
     text-align: center;
     margin-left: 2%;
+    display: inline-block;
+    height: 200px;
 }
 
 section{
@@ -160,7 +179,7 @@ hr{
 
 #formulaireConnexion form{
     border: solid;
-    border-color: red;
+    border-color: #e10000;
     border-radius: 10px;
     width: 35%;
     margin: auto;
@@ -209,7 +228,7 @@ hr{
 
 #bandeau{
     text-align: center;
-    background-image: linear-gradient(red ,white);
+    background-image: linear-gradient(#e10000,white);
     color : white;
     height: 16.5%;
     margin-bottom: 5%;
@@ -217,5 +236,264 @@ hr{
 
 #bandeau h1{
     padding-top: 1.5%;
+
+}
+
+.barreVerticale{
+    clear: both;
+    position: absolute;
+    border: 1px solid #e10000;
+    height: 200px;
+    width: 2px;
+    border-radius: 15px;
+    background-color: #e10000;
+}
+
+#dayAd{
+    border: none;
+}
+
+
+#boutonVoir{
+
+    height: 30px;
+    display: none;
+    margin: auto;
+}
+
+.sectionAnnonce{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+.sectionAnnonce div{
+    display: inline-block;
+    margin: 100px;
+}
+
+.lesannonces div{
+    display: inline-block;
+}
+.blocPage{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 70%;
+    float: right;
+    margin-right: 50px;
+}
+
+.detail{
+    border: 2px solid #e10000;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: center;
+    padding: 0px;
+}
+
+.picAnnonce{
+    width: 96%;
+}
+
+.detail div{
+    border: 2px solid black;
+    border-radius:15px ;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+}
+
+.pic{
+    float: left;
+    width: 25%;
+    height: 90%;
+
+}
+.descriptif div{
+    display: block;
+    width: 88%;
+}
+.descriptif{
+
+    width: 60%;
+    height: 90%;
+}
+
+.opt{
+    display: inline-block;
+    margin: 20px;
+}
+.option{
+    padding: 0px;
+}
+
+
+#com{
+    margin:30px;
+    width: 200px;
+    height: 65px;
+    border-radius: 10px;
+    border: 1px solid #e10000;
+}
+#send{
+    margin: 30px;
+    border-radius: 10px;
+    color:#e10000;
+}
+
+
+/*espace perso*/
+.monProfil{
+    justify-content: center;
+    text-align: center;
+}
+hr{
+    width:40%;
+}
+
+.link{
+    margin: 20px;
+}
+
+/*infos*/
+.infos{
+    justify-content: center;
+    text-align: center;
+}
+
+#afficheannonce{
+    padding: 0px;
+}
+
+#lesannonces{
+    display: inline-block;
+    width: 100%;
+    padding: 0px;
+}
+.alignAd{
+    display: inline-block;
+}
+#gauche{
+    width: 20%;
+    margin-top: -250px;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+}
+#droite{
+    width: 78%;
+    margin-top: -200px;
+    padding-left: 11%;
+}
+
+.mdp{
+    height: 1%;
+    padding: 20px;
+}
+.annee{
+    height:1%;
+    padding: 20px;
+}
+.num{
+    height: 1%;
+    padding: 20px;
+}
+/*Gestions des Fonts*/
+@font-face {
+    font-family: 'Copperplate'  ;
+    src: url('../fonts/Copperplate.ttf');
+}
+p{
+    font-size: 23px;
+    /*font-weight: bold;*/
+}
+h1{
+    color: #e10000;
     font-size: 50px;
+}
+#titreRecherche{
+    font-size: 35px;
+}
+a{
+    text-decoration: none;
+    color: #e10000;
+}
+html {
+    font-family: 'Copperplate';
+}
+
+#slider{
+    overflow:hidden;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: block;
+    margin-top: 8%;
+
+}
+#slide{
+    width: 2000px;
+    position:absolute;
+    top:0;
+}
+#slide:hover{
+    transform: translateX(-1000px);
+    transition: 15s;
+}
+
+#imgevent{
+    margin-top: 40px;
+}
+.historique{
+    /*justify-content: center;*/
+    text-align: center;
+}
+#conteneur{
+    padding:0px;
+    diplay :block;
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+}
+
+#contenu{
+
+    margin-top: auto;
+    display: block;
+    padding-top: 0px;
+}
+
+#annonceContenue{
+    height: 95px;
+}
+.annoncepubliee{
+    padding: 0px;
+}
+button{
+    font-family: Copperplate;
+    font-color: #e10000;
+    border: none;
+    background: none;
+}
+
+#conteneurSignal{
+    padding:0px;
+    diplay :block;
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+}
+
+#contenuSignal{
+
+    margin-top: auto;
+    display: block;
+    padding-top: 0px;
+}
+#secPad0{
+    padding-bottom: 5%;
+    padding-top: 4.8%;
 }

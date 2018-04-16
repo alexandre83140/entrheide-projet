@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" type="text/css" href="../../css/mainEnthreide.css" th:href="@{css/mainEnthreide.css}"/>
+    <link rel="stylesheet" type="text/css" href="../../css/espaceperso.css" th:href="@{css/espaceperso.css}"/>
+    <link rel="stylesheet" type="text/css" href="../../css/annonce" th:href="@{css/annonce.css}"/>
+
+    <script type="application/javascript" src="script/script.js" ></script>
+
+
+</head>
+<body action="accueil">
+<div th:insert="~{fragments::menu}"></div>
+<section>
+    Les	concepteurs	du	site,	c’est-à-dire	Maxime	PEREIRA	et	Alexandre	PREVERT	s'attribuent	les	droits	et
+    la	propriété	du	projet,	mais	fournissent	son	utilisation	à	son	client,	l'Intégrale	HEI,	et	donc	à	tous	les
+    étudiants	d'HEI.
+</section>
+
+</body>
+<footer th:insert="~{fragments::footer}"></footer>
+</html>
